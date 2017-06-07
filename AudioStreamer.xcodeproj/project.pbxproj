@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB28C38F1EE698FA006C8B06 /* ARAudioDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CB28C38E1EE698FA006C8B06 /* ARAudioDownloader.m */; };
+		CB341F211EE0F9F300DDF900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F171EE0F9F300DDF900 /* AppDelegate.m */; };
+		CB341F221EE0F9F300DDF900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB341F181EE0F9F300DDF900 /* Assets.xcassets */; };
+		CB341F231EE0F9F300DDF900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB341F191EE0F9F300DDF900 /* LaunchScreen.storyboard */; };
+		CB341F241EE0F9F300DDF900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB341F1B1EE0F9F300DDF900 /* Main.storyboard */; };
+		CB341F251EE0F9F300DDF900 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB341F1D1EE0F9F300DDF900 /* Info.plist */; };
+		CB341F261EE0F9F300DDF900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F1E1EE0F9F300DDF900 /* main.m */; };
+		CB341F271EE0F9F300DDF900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F201EE0F9F300DDF900 /* ViewController.m */; };
+		CB341F2A1EE12C3400DDF900 /* ARAudioFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F291EE12C3400DDF900 /* ARAudioFileInfo.m */; };
+		CB341F2E1EE12E7300DDF900 /* ARAudioProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F2D1EE12E7300DDF900 /* ARAudioProvider.m */; };
+		CB341F6E1EE153FE00DDF900 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = CB341F6D1EE153FE00DDF900 /* README.MD */; };
+		CB341F711EE15B8F00DDF900 /* NSData+ARMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F701EE15B8F00DDF900 /* NSData+ARMappedFile.m */; };
+		CB341F7A1EE1730D00DDF900 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F771EE1730D00DDF900 /* Track.m */; };
+		CB341F7B1EE1730D00DDF900 /* Track+Provider.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F791EE1730D00DDF900 /* Track+Provider.m */; };
+		CB341F7D1EE1732200DDF900 /* 邂逅.aac in Resources */ = {isa = PBXBuildFile; fileRef = CB341F7C1EE1732200DDF900 /* 邂逅.aac */; };
+		CB341F801EE2508800DDF900 /* ARAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F7F1EE2508800DDF900 /* ARAudioStreamer.m */; };
+		CB341F831EE2509400DDF900 /* ARAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F821EE2509400DDF900 /* ARAudioDecoder.m */; };
+		CB341F861EE250C000DDF900 /* ARAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F851EE250C000DDF900 /* ARAudioRenderer.m */; };
+		CB341F891EE251DB00DDF900 /* ARAudioEventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F881EE251DB00DDF900 /* ARAudioEventLoop.m */; };
+		CB341F8C1EE2526600DDF900 /* ARAudioLPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = CB341F8B1EE2526600DDF900 /* ARAudioLPCM.m */; };
+		CBCE84CB1EE7AFA300493628 /* David Arnold - Opening Titles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBCE84CA1EE7AFA300493628 /* David Arnold - Opening Titles.mp3 */; };
+		CBCE84CD1EE7AFAA00493628 /* Winky诗 - 花开不记年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBCE84CC1EE7AFAA00493628 /* Winky诗 - 花开不记年.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB28C38D1EE698FA006C8B06 /* ARAudioDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioDownloader.h; sourceTree = "<group>"; };
+		CB28C38E1EE698FA006C8B06 /* ARAudioDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioDownloader.m; sourceTree = "<group>"; };
+		CB341EFA1EE0F9BD00DDF900 /* AudioStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB341F161EE0F9F300DDF900 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB341F171EE0F9F300DDF900 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB341F181EE0F9F300DDF900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB341F1A1EE0F9F300DDF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB341F1C1EE0F9F300DDF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB341F1D1EE0F9F300DDF900 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB341F1E1EE0F9F300DDF900 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB341F1F1EE0F9F300DDF900 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB341F201EE0F9F300DDF900 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB341F281EE12C3400DDF900 /* ARAudioFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioFileInfo.h; sourceTree = "<group>"; };
+		CB341F291EE12C3400DDF900 /* ARAudioFileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioFileInfo.m; sourceTree = "<group>"; };
+		CB341F2B1EE12D3800DDF900 /* ARAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioFile.h; sourceTree = "<group>"; };
+		CB341F2C1EE12E7300DDF900 /* ARAudioProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioProvider.h; sourceTree = "<group>"; };
+		CB341F2D1EE12E7300DDF900 /* ARAudioProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioProvider.m; sourceTree = "<group>"; };
+		CB341F6D1EE153FE00DDF900 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		CB341F6F1EE15B8F00DDF900 /* NSData+ARMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ARMappedFile.h"; sourceTree = "<group>"; };
+		CB341F701EE15B8F00DDF900 /* NSData+ARMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ARMappedFile.m"; sourceTree = "<group>"; };
+		CB341F761EE1730C00DDF900 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		CB341F771EE1730D00DDF900 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		CB341F781EE1730D00DDF900 /* Track+Provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Track+Provider.h"; sourceTree = "<group>"; };
+		CB341F791EE1730D00DDF900 /* Track+Provider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Track+Provider.m"; sourceTree = "<group>"; };
+		CB341F7C1EE1732200DDF900 /* 邂逅.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "邂逅.aac"; sourceTree = "<group>"; };
+		CB341F7E1EE2508800DDF900 /* ARAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioStreamer.h; sourceTree = "<group>"; };
+		CB341F7F1EE2508800DDF900 /* ARAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioStreamer.m; sourceTree = "<group>"; };
+		CB341F811EE2509400DDF900 /* ARAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioDecoder.h; sourceTree = "<group>"; };
+		CB341F821EE2509400DDF900 /* ARAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioDecoder.m; sourceTree = "<group>"; };
+		CB341F841EE250C000DDF900 /* ARAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioRenderer.h; sourceTree = "<group>"; };
+		CB341F851EE250C000DDF900 /* ARAudioRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioRenderer.m; sourceTree = "<group>"; };
+		CB341F871EE251DB00DDF900 /* ARAudioEventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioEventLoop.h; sourceTree = "<group>"; };
+		CB341F881EE251DB00DDF900 /* ARAudioEventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioEventLoop.m; sourceTree = "<group>"; };
+		CB341F8A1EE2526600DDF900 /* ARAudioLPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioLPCM.h; sourceTree = "<group>"; };
+		CB341F8B1EE2526600DDF900 /* ARAudioLPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioLPCM.m; sourceTree = "<group>"; };
+		CBCE84CA1EE7AFA300493628 /* David Arnold - Opening Titles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "David Arnold - Opening Titles.mp3"; sourceTree = "<group>"; };
+		CBCE84CC1EE7AFAA00493628 /* Winky诗 - 花开不记年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Winky诗 - 花开不记年.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB341EF71EE0F9BD00DDF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB341EF11EE0F9BD00DDF900 = {
+			isa = PBXGroup;
+			children = (
+				CB341F141EE0F9F300DDF900 /* AudioStreamer */,
+				CB341F151EE0F9F300DDF900 /* NewClasses */,
+				CB341EFB1EE0F9BD00DDF900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB341EFB1EE0F9BD00DDF900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB341EFA1EE0F9BD00DDF900 /* AudioStreamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB341F141EE0F9F300DDF900 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				CB341F6D1EE153FE00DDF900 /* README.MD */,
+				CB341F2B1EE12D3800DDF900 /* ARAudioFile.h */,
+				CB341F7E1EE2508800DDF900 /* ARAudioStreamer.h */,
+				CB341F7F1EE2508800DDF900 /* ARAudioStreamer.m */,
+				CB341F871EE251DB00DDF900 /* ARAudioEventLoop.h */,
+				CB341F881EE251DB00DDF900 /* ARAudioEventLoop.m */,
+				CB341F811EE2509400DDF900 /* ARAudioDecoder.h */,
+				CB341F821EE2509400DDF900 /* ARAudioDecoder.m */,
+				CB341F8A1EE2526600DDF900 /* ARAudioLPCM.h */,
+				CB341F8B1EE2526600DDF900 /* ARAudioLPCM.m */,
+				CB341F841EE250C000DDF900 /* ARAudioRenderer.h */,
+				CB341F851EE250C000DDF900 /* ARAudioRenderer.m */,
+				CB341F281EE12C3400DDF900 /* ARAudioFileInfo.h */,
+				CB341F291EE12C3400DDF900 /* ARAudioFileInfo.m */,
+				CB341F2C1EE12E7300DDF900 /* ARAudioProvider.h */,
+				CB341F2D1EE12E7300DDF900 /* ARAudioProvider.m */,
+				CB28C38D1EE698FA006C8B06 /* ARAudioDownloader.h */,
+				CB28C38E1EE698FA006C8B06 /* ARAudioDownloader.m */,
+				CB341F6F1EE15B8F00DDF900 /* NSData+ARMappedFile.h */,
+				CB341F701EE15B8F00DDF900 /* NSData+ARMappedFile.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
+		CB341F151EE0F9F300DDF900 /* NewClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE84CC1EE7AFAA00493628 /* Winky诗 - 花开不记年.mp3 */,
+				CBCE84CA1EE7AFA300493628 /* David Arnold - Opening Titles.mp3 */,
+				CB341F761EE1730C00DDF900 /* Track.h */,
+				CB341F771EE1730D00DDF900 /* Track.m */,
+				CB341F781EE1730D00DDF900 /* Track+Provider.h */,
+				CB341F791EE1730D00DDF900 /* Track+Provider.m */,
+				CB341F7C1EE1732200DDF900 /* 邂逅.aac */,
+				CB341F161EE0F9F300DDF900 /* AppDelegate.h */,
+				CB341F171EE0F9F300DDF900 /* AppDelegate.m */,
+				CB341F181EE0F9F300DDF900 /* Assets.xcassets */,
+				CB341F191EE0F9F300DDF900 /* LaunchScreen.storyboard */,
+				CB341F1B1EE0F9F300DDF900 /* Main.storyboard */,
+				CB341F1D1EE0F9F300DDF900 /* Info.plist */,
+				CB341F1E1EE0F9F300DDF900 /* main.m */,
+				CB341F1F1EE0F9F300DDF900 /* ViewController.h */,
+				CB341F201EE0F9F300DDF900 /* ViewController.m */,
+			);
+			path = NewClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB341EF91EE0F9BD00DDF900 /* AudioStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB341F111EE0F9BD00DDF900 /* Build configuration list for PBXNativeTarget "AudioStreamer" */;
+			buildPhases = (
+				CB341EF61EE0F9BD00DDF900 /* Sources */,
+				CB341EF71EE0F9BD00DDF900 /* Frameworks */,
+				CB341EF81EE0F9BD00DDF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioStreamer;
+			productName = AudioStreamer;
+			productReference = CB341EFA1EE0F9BD00DDF900 /* AudioStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB341EF21EE0F9BD00DDF900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Archer;
+				TargetAttributes = {
+					CB341EF91EE0F9BD00DDF900 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9V63V65V6Y;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CB341EF51EE0F9BD00DDF900 /* Build configuration list for PBXProject "AudioStreamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB341EF11EE0F9BD00DDF900;
+			productRefGroup = CB341EFB1EE0F9BD00DDF900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB341EF91EE0F9BD00DDF900 /* AudioStreamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB341EF81EE0F9BD00DDF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB341F251EE0F9F300DDF900 /* Info.plist in Resources */,
+				CB341F241EE0F9F300DDF900 /* Main.storyboard in Resources */,
+				CBCE84CB1EE7AFA300493628 /* David Arnold - Opening Titles.mp3 in Resources */,
+				CB341F221EE0F9F300DDF900 /* Assets.xcassets in Resources */,
+				CBCE84CD1EE7AFAA00493628 /* Winky诗 - 花开不记年.mp3 in Resources */,
+				CB341F7D1EE1732200DDF900 /* 邂逅.aac in Resources */,
+				CB341F231EE0F9F300DDF900 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB341EF61EE0F9BD00DDF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB28C38F1EE698FA006C8B06 /* ARAudioDownloader.m in Sources */,
+				CB341F801EE2508800DDF900 /* ARAudioStreamer.m in Sources */,
+				CB341F711EE15B8F00DDF900 /* NSData+ARMappedFile.m in Sources */,
+				CB341F7B1EE1730D00DDF900 /* Track+Provider.m in Sources */,
+				CB341F831EE2509400DDF900 /* ARAudioDecoder.m in Sources */,
+				CB341F6E1EE153FE00DDF900 /* README.MD in Sources */,
+				CB341F2E1EE12E7300DDF900 /* ARAudioProvider.m in Sources */,
+				CB341F271EE0F9F300DDF900 /* ViewController.m in Sources */,
+				CB341F8C1EE2526600DDF900 /* ARAudioLPCM.m in Sources */,
+				CB341F2A1EE12C3400DDF900 /* ARAudioFileInfo.m in Sources */,
+				CB341F861EE250C000DDF900 /* ARAudioRenderer.m in Sources */,
+				CB341F261EE0F9F300DDF900 /* main.m in Sources */,
+				CB341F211EE0F9F300DDF900 /* AppDelegate.m in Sources */,
+				CB341F7A1EE1730D00DDF900 /* Track.m in Sources */,
+				CB341F891EE251DB00DDF900 /* ARAudioEventLoop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB341F191EE0F9F300DDF900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB341F1A1EE0F9F300DDF900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CB341F1B1EE0F9F300DDF900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB341F1C1EE0F9F300DDF900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB341F0F1EE0F9BD00DDF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB341F101EE0F9BD00DDF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB341F121EE0F9BD00DDF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9V63V65V6Y;
+				INFOPLIST_FILE = "$(SRCROOT)/NewClasses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsguide.app.AudioStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB341F131EE0F9BD00DDF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9V63V65V6Y;
+				INFOPLIST_FILE = "$(SRCROOT)/NewClasses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsguide.app.AudioStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB341EF51EE0F9BD00DDF900 /* Build configuration list for PBXProject "AudioStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB341F0F1EE0F9BD00DDF900 /* Debug */,
+				CB341F101EE0F9BD00DDF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB341F111EE0F9BD00DDF900 /* Build configuration list for PBXNativeTarget "AudioStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB341F121EE0F9BD00DDF900 /* Debug */,
+				CB341F131EE0F9BD00DDF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB341EF21EE0F9BD00DDF900 /* Project object */;
+}
